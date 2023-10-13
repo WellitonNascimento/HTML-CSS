@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+        }
+        h1 {
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+        }
+        nav {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px;
+            border-radius: 1px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);;
+            padding: 5px 10px 5px 10px;
+        }
+        nav:hover {
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+            border-radius: 15px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+       article {
+        background-color: rgba(0, 0, 0, 0.24);
+       }
+       #bola {
+        margin: 30px;
+       }
+       .botom {
+        height: 50px;
+        width: 50px;
+        background-color: aliceblue;
+        color: black;
+        margin: 30px;
+        padding: 5px 10px 5px 10px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <h2>Games e esportes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis nulla ratione optio quaerat perferendis aliquam delectus. Explicabo harum quidem perferendis asperiores aspernatur omnis sunt accusantium, voluptatem, necessitatibus, ab debitis?</p>
+        <section id="noticias">
+            <article>
+                <h2>noticias blabla</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nobis sint repellat corrupti, dolorem officia voluptatum nihil animi porro fuga magnam quas totam ipsam molestias exercitationem nostrum perferendis. Iusto, dolores.</p>
+                <aside>
+                    <p>Fulano da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Welliton Nascimento
+    </footer>
+    <div id="bola">
+        <span class="botom">1</span>
+        <span class="botom">2</span>
+        <span class="botom">3</span>
+    </div>
+</body>
+</html>

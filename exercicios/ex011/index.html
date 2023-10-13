@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagems dinamicas</h1>
+    <p>Tente abrir esse site em varios dipositivos diferentes ou simplesmente diminua e aumente o seu navegador</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexisivel">
+    </picture>
+    <h1>Reproduzir audio</h1>
+    <p>Como reporduzir audios em HTML5
+    </p>
+  <audio preload="metadata" controls >
+    <source src="midia/ambient-piano-logo-165357.mp3" type="audio/mpeg">
+    <p>Infelizmente seu navegador nao e compativel com audioMP3 clique em <a href="midia/ambient-piano-logo-165357.mp3">download</a> para baixar audio</p>
+  </audio>
+  <p><a href="midia/ambient-piano-logo-165357.mp3" type="audio/mpeg">clique aqui para baixar audio</a></p>
+
+  <h1>Reprozindo um video</h1>
+  <p>vamos reproduzir um video no seu site</p>
+  <video src="midia/video teste.mp4" controls></video>
+</html>
