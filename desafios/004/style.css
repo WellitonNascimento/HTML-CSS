@@ -12,45 +12,40 @@ header {
     text-align: center;
     background-color: black;
 }
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
 body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: Verdana, Tahoma, sans-serif;
 }
 section {
-    background-color: white;
-    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-section > p {
-    font-size: 1em;
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(66, 66, 66);
+    color: white;
 }
 section.imagem > p {
-    display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 400px;
 }
-section.imagem{
-    background-color: rgb(51, 51, 51);
+footer {
+    background-color: black;
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-}
-#img1 {
-    background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center ;
-    background-attachment: fixed;
-    
-}
-#img2 {
-    height: 300px;
-    background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center ;
-    background-attachment: fixed;
+    text-align: center;
+    padding: 10px;
 }
